@@ -5,4 +5,4 @@ pw BC : jangkrikbos
 
 
 evassion : 
-<<DOMAIN>>?superbone ls-la
+https://yourdomain.com?superbone ls-la
