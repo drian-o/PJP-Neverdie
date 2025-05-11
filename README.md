@@ -28,9 +28,9 @@ REPOSITORY PJP NeverDie
     <td>SQL Access Server</td>
   </tr>
     <tr>
-    <td>Bypass Alfa</td>
+    <td>Alfa</td>
     <td></td>
-    <td>Levinathan Backdor</td>
+    <td>ALFADATA Backdor</td>
   </tr>
     <tr>
     <td>Scanner Webshell</td>
