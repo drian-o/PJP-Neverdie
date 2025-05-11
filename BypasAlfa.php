@@ -14,8 +14,6 @@ if(isset($_COOKIE)) {
     }
 }
 
-<?php  
-
   /*
   created SUPERBONE TEAM
   */
