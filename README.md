@@ -1,13 +1,6 @@
 REPOSITORY PJP NeverDie
 
-<style>
-body{
-text-align = center;
-}
-table, th, td {
-  border:1px solid black;
-}
-</style>
+
 <table style="width:100%">
   <tr>
     <th>FILE NAME</th>
